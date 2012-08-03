@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="@drawable/answercallbackground"
+    android:id="@+id/answer_call"
+    >
+
+        <TextView
+            android:id="@+id/firstline"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            />
+
+        <TextView
+            android:id="@+id/secondline"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:layout_below="@+id/firstline"
+            />
+
+        <TextView
+            android:id="@+id/thirstline"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_below="@+id/secondline"
+            />
+
+        <ImageView
+            android:layout_height="172dp"
+            android:src="@drawable/sun_small"
+            android:id="@+id/me"
+            android:layout_width="172dp"
+            android:layout_below="@+id/thirstline"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/timecounter"
+            android:textColor="#23cf34"
+            android:layout_alignBottom="@+id/me"
+            android:layout_toRightOf="@+id/me"
+            />
+
+        <Chronometer
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/chrono"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/answername"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_name"
+            android:layout_below="@+id/me"
+            />
+
+        <TextView
+            android:id="@+id/answerphonenumber"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_phone"
+            android:layout_below="@+id/answername"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_below="@+id/answerphonenumber"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="20px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/exit_call"
+            android:layout_below="@+id/textView1"
+            />
+
+</RelativeLayout>

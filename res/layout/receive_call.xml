@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:id="@+id/receive_call">
+
+    <TableRow>
+        <TextView
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text=" "
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:typeface="sans"
+            android:gravity="center"
+            android:textSize="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="@string/incoming_call"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text=" "
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="172dp"
+            android:src="@drawable/sun_small"
+            android:layout_height="172dp"
+            android:layout_weight="0.08"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/recievename"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="@string/my_name"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/receivephonenumber"
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="@string/my_phone"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text=" "
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text=" "
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="0.01">
+        <Button
+            android:id="@+id/answer"
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/answerbutton75"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/reject"
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/rejectbutton75"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:typeface="sans"
+            android:gravity="center"
+            android:textSize="20px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Ereptum!</string>
+    <string name="app_name">Ereptum</string>
+    <string name="hour_text">Hour</string>
+    <string name="minutes_text">Minutes</string>
+    <string name="seconds_text">Seconds</string>
+    <string name="volume_on">Volume</string>
+    <string name="volume_off">Volume</string>
+    <string name="vibration_on">Vibration</string>
+    <string name="vibration_off">Vibration</string>
+    
+    <string name="start_button">Ereptum!</string>
+    <string name="stop_button">Stop</string>
+    <string name="reset_button">Reset timer</string>
+    
+    <string name="call_scheduled_at">Call scheduled at</string>
+    <string name="call_canceled">Scheduled call canceled</string>
+    
+    <string name="welcomeTitle" >Thanks for use this application</string>
+    <string name="welcomeContent">It is very easy to schedule a false call for special situations. You just have to \n\n1. Set the timer \n2. Choose any call option \n3. Press on Ereptum! \n\nThen your call will be scheduled.</string>
+    <string name="welcomeButton">Ok. I got it!</string>
+        
+    <string name="helpTitle" >Thanks for use this application</string>
+   	<string name="helpContent">To schedule a call, you should follow several steps: \n\n1. Set the timer \n2. Choose any call option \n3. Press on Ereptum! \n\nOnce the timer get expired, you will receive a false call. This call will not cost you any money. \n\nYou can find more information at \nhttp://www.ereptum.com</string>
+    <string name="helpBack">Go back</string>
+    <string name="helpMore">More info</string>
+   	    
+    <string name="aboutUsTitle">About Ereptum</string>
+	<string name="aboutUsContent">Ereptum is an application which allow you to schedule a false call based on a Timer in order to escape from uncomfortable situations in elegant way. \n\nIt is the first application published at Android market by Jiahao Liu, who is software engineer graduated at the Polytechnic university of Madrid, Spain. \n\nHe also has been awarded by the Royal institute of Technologies (KTH), Sweden for a master degree on Distributed System. \n\nFor more information about him, you can visit at: \nhttp://www.jiahaoliuliu.com/p/about-me.html</string>
+	<string name="aboutUsBack">Go back</string>
+	<string name="aboutUsMore">More info</string>    
+	    
+	<string name="menu_feedback">Feedback</string>
+	<string name="menu_news">News</string>
+	<string name="menu_aboutme">About</string>
+	<string name="menu_help">Help</string>
+	    
+	<string name="incoming_call">Incoming call</string>
+	<string name="my_name">Jiahao Liu Liu</string>
+	<string name="my_phone">0034651482835</string>
+	
+	<string name="exit_call">Press home or back to exit</string>
+</resources>

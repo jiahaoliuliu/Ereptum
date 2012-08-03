@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Ereptum!</string>
+    <string name="app_name">Ereptum</string>
+    <string name="hour_text">Horas</string>
+    <string name="minutes_text">Minutos</string>
+    <string name="seconds_text">Segundos</string>
+    <string name="volume_on">Melodía</string>
+    <string name="volume_off">Melodía</string>
+    <string name="vibration_on">Vibración</string>
+    <string name="vibration_off">Vibración</string>
+    
+    <string name="start_button">¡Ereptum!</string>
+    <string name="stop_button">Parar</string>
+    <string name="reset_button">Reiniciar cronometro</string>
+    
+    <string name="call_scheduled_at">Llamada planificada en</string>
+    <string name="call_canceled">Llamada planificada cancelada</string>
+        
+    <string name="welcomeTitle" > Gracias por utilizar esta aplicacion</string>
+    <string name="welcomeContent"> Es muy fácil planificar una llamada falsa para ocasiones especiales. Solamente tienes que \n\n1. Elegir el tiempo \n2. Elegir las opciones de la llamada \n3. Presionar el botón Ereptum! \n\nEntonces tu llamada estaría planificada </string>
+    <string name="welcomeButton">¡Entendido!</string>
+        
+    <string name="helpTitle">Ayuda</string>
+    <string name="helpContent">Para programar una llamada, deberías seguir los siguientes pasos: \n\n1. Elegir el tiempo \n2. Elegir las opciones de la llamada \n3. Presionar el botón Ereptum! \n\nCuando el temporizador haya expirado, recibirás una llamada. Esta llamada no te constará dinero. \nPara más información acerca del programa, puedes visitar: \nhttp://www.ereptum.com</string>	    
+    <string name="helpBack">Atrás</string>
+    <string name="helpMore">Más info</string>
+        
+    <string name="aboutUsTitle"> Acerca de Ereptum</string>
+	<string name="aboutUsContent"> Ereptum es un programa que te permite programar llamadas falsas para escaparte de situaciones indeseadas de forma elegante. \n\nEs el primer programa publicado en Android market por Jiahao Liu, quién se ha graduado en la Universidad Politécnica de Madrid, España. \n\nTambién ha obtenido el grado del Master en sistemas distribuidos otorgados por el Real Instituto Tecnológico de Estocolmo (KTH), Suecia. \n\nPara saber más sobre el autor puedes visitar a: \nhttp://www.jiahaoliuliu.com/p/about-me.html</string>
+	<string name="aboutUsBack">Atrás</string>
+	<string name="aboutUsMore">Más info</string>
+	    	
+	<string name="menu_feedback">Opinar</string>
+	<string name="menu_news">Noticias</string>
+	<string name="menu_aboutme">Acerca de </string>
+	<string name="menu_help">Ayuda</string>
+	    
+	<string name="incoming_call">Llamando</string>
+	<string name="my_name">Jiahao Liu Liu</string>
+	<string name="my_phone">0034651482835</string>
+	
+	<string name="exit_call">Pulsa la tecla de menú para ver las opciones de llamada</string>
+	    
+</resources>

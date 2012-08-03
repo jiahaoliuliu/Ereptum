@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Feedback -->
+     <item
+    	android:id="@+id/menufeedback"
+        android:title="@string/menu_feedback"
+        android:icon="@android:drawable/ic_menu_send" />
+
+<!-- News -->
+     <item
+    	android:id="@+id/menunews"
+        android:title="@string/menu_news"
+        android:icon="@android:drawable/ic_menu_compass" />
+     
+<!-- About  --> 
+     <item
+    	android:id="@+id/menuabout"
+        android:title="@string/menu_aboutme"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+     
+<!-- Help -->
+	<item 
+	    android:id="@+id/menuhelp"
+	    android:title="@string/menu_help"
+	    android:icon="@android:drawable/ic_menu_help" />
+
+</menu>
